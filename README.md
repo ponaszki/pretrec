@@ -1,0 +1,2 @@
+# pretrec
+zadanie rekrutacyjne pretius
