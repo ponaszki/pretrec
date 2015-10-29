@@ -19,10 +19,10 @@ public class Pretrec
 		for (HashMap<String, String> hashMap : data) {
 			String val =hashMap.get("amount");
 			BigDecimal bd = new BigDecimal( val);
-			sum.add(bd);
+			sum = sum.add(bd);
+			System.out.println("Suma czesciowa:" + sum);
 		}
 		return sum;
-		
 	}
 	
     public static void main( String[] args )
